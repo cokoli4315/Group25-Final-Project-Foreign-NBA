@@ -30,7 +30,7 @@
     font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
     font-weight: 400;
     line-height: 1.5;
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(229, 18, 18);
   }
   
   
@@ -128,14 +128,14 @@
   }
   
   .left_section {
-    background-color: rgba(25, 62, 247, 0.823);
+    background-color: rgba(239, 230, 230, 0.823);
     flex: 0 1 auto;
     margin: 1rem;
     padding: 1.5rem;
   }
   
   .right_section {
-    background-color: rgba(189, 27, 210, 0.848);
+    background-color: rgba(245, 15, 42, 0.848);
     flex: 1 2 auto;
     margin: 1rem;
     align-items: center;
@@ -260,7 +260,7 @@
   .prev:focus,
   .next:focus {
     margin: 0;
-    border: 2px solid rgb(28, 227, 91);/* Pick a good border colour and check out how it works with your buttons */
+    border: 2px solid rgb(232, 236, 233);/* Pick a good border colour and check out how it works with your buttons */
   }
   
   .prev:hover,
