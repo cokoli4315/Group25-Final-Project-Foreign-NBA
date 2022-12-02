@@ -83,9 +83,12 @@ async function mainEvent() {
       This next line goes to the request for 'GET' in the file at /server/routes/foodServiceRoutes.js
       It's at about line 27 - go have a look and see what we're retrieving and sending back.
      */
-    const results = await fetch('/api/foodServicePG');
-    const arrayFromJson = await results.json(); // here is where we get the data from our request as JSON
-  
+    // const results = await fetch('/api/foodServicePG');
+    // const arrayFromJson = await results.json(); // here is where we get the data from our request as JSON
+    const url = 'https://api-nba-v1.p.rapidapi.com/players?team=1&season=2021';
+    const data = await fetch(url);
+    const json = await data.json();
+    console.log(json);
     /*
       Below this comment, we log out a table of all the results using "dot notation"
       An alternate notation would be "bracket notation" - arrayFromJson["data"]
